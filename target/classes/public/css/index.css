@@ -1,0 +1,65 @@
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
+.hero-bg-parent {
+}
+
+.hero-bg {
+  height: 100vh;
+  /* background-image: url(/images/hero-photo.jpg); */
+  background-repeat: no-repeat;
+  background-size: 85vh 105vh;
+  background-position: -120px 0px;
+}
+
+.hero-bg-overlay {
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.712);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ml11,
+.ml12 {
+  margin: 12px 0px;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml12 .text-wrapper2 {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml12 .letter2 {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+@media only screen and (min-width: 500px) {
+  .hero-bg {
+    background-size: 80vh 100vh;
+    background-position: -10px 0px;
+    background-color: rgb(80, 79, 79);
+    background-blend-mode: overlay;
+  }
+}
