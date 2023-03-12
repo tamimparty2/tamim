@@ -21,6 +21,7 @@ public class WeddingGuest {
 	private String state;
 	private String arrivalDate;
 	private boolean assistance;
+        @OneToOne
 	private ProfileImage profileImage;
 	private String testimony;
 	private String date;
