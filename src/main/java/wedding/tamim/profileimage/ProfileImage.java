@@ -10,13 +10,13 @@ public class ProfileImage {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long profileImageId;
+	private int profileImageId;
 
-	public long getProfileImageId() {
+	public int getProfileImageId() {
 		return profileImageId;
 	}
 
-	public void setProfileImageId(long profileImageId) {
+	public void setProfileImageId(int profileImageId) {
 		this.profileImageId = profileImageId;
 	}
 	
